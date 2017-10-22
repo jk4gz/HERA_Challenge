@@ -1,33 +1,86 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: MS Gothic, sans-serif;
-	font-weight: 300;
-}
-
-.bar{
-	
-}
-
-.button {
-	background-color: red;
-	display: inline-block;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
 .header {
-	height: 100px;
+	padding-top: 50px;
+	margin-left: 145px;
+	height: 717px;
+	width: 77%;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.title {
+	margin-left: 0px;
+	width: 400px;
+	height: 140px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.title img {
+	height: 100%;
 	width: 100%;
-	font-size: 20px;
-	background-color: blue;
+}
+
+.bar{
+	margin-left: 10px;
+	height: 50px;
+	width: 550px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.button {
+	display: inline-block;
+	height: 50px;
+	width: 25%;
 	text-align: center;
+	vertical-align: middle;
+	line-height: 60px;
+	font-size: 17px;
 }
 
 .about {
+	margin-left: 145px;
+	height: 325px;
+	width: 77%;
 
 }
 
-.projects {
+.aboutTxt {
+	display: inline-block;
+	height: 325px;
+	width: 50%;
 
+}
+
+.about img {
+	display: inline-block;
+	height: 75%;
+	width: auto;
+	padding-left: 90px;
+}
+
+.projects {
+	height: 400px;
+	width: 77%;
+	margin-left: 145px;
+	background-color: blue;
+}
+
+.projects img {
+	width: 100%;
+	height: auto;
+}
+
+.projects iframe {
+	margin-left: 185px;
 }
 
 .team {
