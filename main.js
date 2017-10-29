@@ -8,7 +8,7 @@ function scrollWho() {
 function scrollProj() {
 	var topOfDiv = $('#projects').offset().top;
 	console.log("Top:", topOfDiv);
-	$('html, body').animate({scrollTop: topOfDiv+400}, 1000);
+	$('html, body').animate({scrollTop: topOfDiv-50}, 1000);
 	return false;
 }
 
@@ -26,4 +26,6 @@ function scrollDonate() {
 	return false;
 }
 
-$('#kidsB').parallax({imageSrc: 'Images/kids2.jpg'});
+$('#kidsDos').parallax({imageSrc: 'Images/kids2.jpg'});
+$('#teamPic').parallax({imageSrc: 'Images/team.jpg'});
+$('#donatePic').parallax({imageSrc: 'Images/team2.jpg'});

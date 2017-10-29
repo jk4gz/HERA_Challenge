@@ -108,15 +108,14 @@ a.button {
 	padding-left: 90px;
 }
 
-#projects {
-	height: 950px;
-	width: 77%;
-	margin-left: 145px;
+#kidsDos {
+	height: 400px;
 }
 
-#projects img {
-	width: 100%;
-	height: auto;
+#projects {
+	height: 550px;
+	width: 77%;
+	margin-left: 145px;
 }
 
 #projects iframe {
@@ -129,9 +128,8 @@ a.button {
 	margin-left: 145px;
 }
 
-#team img {
-	width: 100%;
-	height: auto;
+#teamPic {
+	height: 520px;
 }
 
 #donate {
@@ -140,9 +138,8 @@ a.button {
 	margin-left: 145px;
 }
 
-#donate img {
-	width: 100%;
-	height: auto;
+#donatePic {
+	height: 300px;
 }
 
 .other {
